@@ -26,10 +26,10 @@ def number_of_unique_kmers(s, k):
 
     return len(unique_kmers_array)
 
-kmer = list_kmers('ACGACGACGACG', 3)
+kmer = list_kmers("ACGATCGATC", 5)
 
 print(kmer)
 
-unique_kmer_nos = number_of_unique_kmers('ACGTA', 3)    
+unique_kmer_nos = number_of_unique_kmers("ACGATCGATC", 5)    
 
 print(unique_kmer_nos)
