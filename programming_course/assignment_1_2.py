@@ -1,8 +1,8 @@
-def dna_changer(str):
+def dna_changer(seq):
 
     changed_dna = ""
 
-    for i in str[::-1]:
+    for i in seq[::-1]:
 
         if i == "A":
 
