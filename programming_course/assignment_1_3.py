@@ -33,3 +33,4 @@ print(kmer)
 unique_kmer_nos = number_of_unique_kmers("ACGATCGATC", 5)    
 
 print(unique_kmer_nos)
+
