@@ -30,8 +30,9 @@ print(is_vampire(125460))
 
 
 def vampire_generator():
-    """Generates an infinite sequence of vampire numbers."""
-    n = 1260  # Start from the first known vampire number
+    
+    n = 1260 
+    
     while True:
         if is_vampire(n):
             yield n

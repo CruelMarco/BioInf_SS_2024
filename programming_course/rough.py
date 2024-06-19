@@ -1,9 +1,16 @@
-def g():
-       x, n = 1
-       while True:
-           yield n
-           n *= x
-           x += 1
+import matplotlib.pyplot as plt
 
-gen = g()
-print([next(gen) for _ in range(10)])
+# Define the points
+x = [0, 3, 9, 4, 7]
+y = [2, 8, 18, 10, 16]
+
+# Create the line plot
+plt.line(x,y, '.')  # 'marker' adds markers at the data points
+
+# Optionally, add titles and labels
+plt.title('Line Plot of Given Points')
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+
+# Display the plot
+plt.show()
